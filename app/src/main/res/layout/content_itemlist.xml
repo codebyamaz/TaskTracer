@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="3dp"
+    android:layout_height="70dp">
+
+    <CheckBox
+        android:layout_width="30dp"
+        android:background="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="25dp" />
+
+    <TextView
+        android:id="@+id/taskName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="9dp"
+        android:background="@color/white"
+        android:fontFamily="@font/open_sans_condensed_bold"
+        android:text="Github Project Uploading"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/taskDeadline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="45dp"
+        android:background="@color/white"
+        android:fontFamily="@font/lato_bold"
+        android:text="27 Sep, 2023"
+        android:textColor="#FF0000"
+        android:textSize="14dp" />
+
+</androidx.cardview.widget.CardView>
